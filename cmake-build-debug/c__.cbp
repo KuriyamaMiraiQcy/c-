@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c__">
+				<Option output="H:/c++/cmake-build-debug/c__.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__"/>
+					<CompileFile command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c__/fast">
+				<Option output="H:/c++/cmake-build-debug/c__.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="H:/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 c__/fast"/>
+					<CompileFile command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="H:/CLion 2023.2/bin/mingw/bin/mingw32-make.exe -f &quot;H:/c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/c++/aa.cpp">
+			<Option target="c__"/>
+		</Unit>
+		<Unit filename="H:/c++/file_rename.cpp">
+			<Option target="c__"/>
+		</Unit>
+		<Unit filename="H:/c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

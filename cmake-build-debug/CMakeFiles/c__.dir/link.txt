@@ -1,0 +1,3 @@
+"H:\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\c__.dir/objects.a
+"H:\CLion 2023.2\bin\mingw\bin\ar.exe" qc CMakeFiles\c__.dir/objects.a @CMakeFiles\c__.dir\objects1.rsp
+"H:\CLion 2023.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\c__.dir/objects.a -Wl,--no-whole-archive -o c__.exe -Wl,--out-implib,libc__.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c__.dir\linkLibs.rsp
